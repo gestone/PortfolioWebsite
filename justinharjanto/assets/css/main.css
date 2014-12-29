@@ -345,3 +345,26 @@ hr {
 	color:#fff;
 	background-color:#88B430;
 }
+
+::-moz-selection { background: #699315; color: #fff; text-shadow: none; }
+::selection { background: #699315; color: #fff; text-shadow: none; }
+
+/* unvisited link */
+a:link {
+    color: #88B430;
+}
+
+/* visited link */
+a:visited {
+    color: #88B430;
+}
+
+/* mouse over link */
+a:hover {
+    color: #afe93a;
+}
+
+/* selected link */
+a:active {
+    color: #88B430;
+}
