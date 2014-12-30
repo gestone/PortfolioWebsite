@@ -456,3 +456,7 @@ a:active {
 #expEntry {
     padding: 0px 0px 0px 20px;
 }
+
+#comingSoon {
+	opacity: 0.5;
+}
