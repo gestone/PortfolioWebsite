@@ -40,6 +40,7 @@ a:hover,a:focus {
 	outline:0;
 }
 
+
 a:before,a:after {
 	-webkit-transition:color .1s ease-in,background .1s ease-in;
 	-moz-transition:color .1s ease-in,background .1s ease-in;
@@ -130,7 +131,7 @@ hr {
 
 #testimonial h2 {
 	color:#fff;
-	font-size:20px;
+	font-size:30px;
 	font-weight:700;
 }
 
@@ -346,6 +347,33 @@ hr {
 	background-color:#88B430;
 }
 
+.btn-heading:focus {
+	border-color:#fff;
+	color:#fff;
+	outline-color:#fff;
+}
+
+.btn-heading {
+	color:#fff;
+	font-family:Raleway;
+	font -size:40px;
+	background-color: transparent;
+	border-color:#fff;
+	font-weight: 700;
+	border-radius: 5px solid;
+	padding:10px 40px;
+	margin:20px;
+}
+
+.btn-heading .btn.active, .btn:active {
+	background-color: #fff;
+}
+
+.btn-heading:hover{
+	background-color:#fff;
+	color:#000;
+}
+
 ::-moz-selection { background: #699315; color: #fff; text-shadow: none; }
 ::selection { background: #699315; color: #fff; text-shadow: none; }
 
@@ -367,4 +395,64 @@ a:hover {
 /* selected link */
 a:active {
     color: #88B430;
+}
+
+#heading {
+	font-family:Raleway;
+	font-weight:300;
+	color:#fff;
+}
+
+#expHeader {
+	font-family:Raleway;
+	font-size: 55px;
+}
+
+.polaroid-images a
+{
+	background: white;
+	display: inline;
+	float: left;
+	margin: 0 15px 30px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+        position:relative;
+}
+
+.polaroid-images a:after {
+	color: #333;
+	font-size: 20px;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+
+.polaroid-images img { 
+	display: block; 
+	width: inherit; 
+}
+
+.polaroid-images a:hover{
+	-webkit-transform: rotate(0deg); 
+	-moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+	-webkit-transform: scale(1.2); 
+	-moz-transform: scale(1.2);
+        transform: scale(1.2);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+        box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
+#expEntry {
+    padding: 0px 0px 0px 20px;
 }
