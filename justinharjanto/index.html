@@ -72,7 +72,7 @@
   	<div id="headerwrap">
   		<div class="container">
   			<div class="col-lg-8">
-  				<h1>Mobile Developer</h1>
+  				<h1>Full-Stack Developer</h1>
           <h2 id="heading">Student at the University of Washington, Seattle.</h2>
           <br>
           <br>
@@ -97,88 +97,14 @@
   	<div class="container about">
   		<div class="col-lg-6 col-lg-offset-3">
   			<h3>About Justin Harjanto</h3>
-  			<h5>FRONT-END ANDROID AND WEB DEVELOPER</h5>
+  			<h5>FULL STACK DEVELOPER</h5>
   			<hr>
   			<br>
   			<h4>Eager intellectual with a strong desire to solve abstract problems. I enjoy harnessing the power of divergent thinking to arrive at novel out of the box solutions.<br/></h4>
-  			<p>For the past two years, I have been utilizing the power of the Android platform to attempt to solve a wide variety of interesting problems. From getting my applications approved by the Google Play Education Board to be distributed for classroom use, to developing an application for crowdsourcing which gathered over 60,000 audio recordings, I program for purpose. Currently, I am a student at the University of Washington and working part time at VoiceBox Technologies as an Android and Web Developer.</p>
+  			<p>For the past three years, I have been utilizing the power of the different platforms to attempt to solve a wide variety of interesting problems. From getting my applications approved by the Google Play Education Board to be distributed for classroom use, to developing an application for crowdsourcing which gathered over 60,000 audio recordings, to leveraging the power of Google BigQuery to draw insights on large datasets, I program for purpose. Currently, I am a student studying Computer Science at the University of Washington.</p>
   		</div><!-- /col-lg-6 -->
   	</div><!-- /container -->
 
-
-  	<!-- BEGIN CHART SECTION -->	
-  	<div id="chartwrap">
-  		<br>
-  		<br>
-  		<div class="container centered">
-  			<div class="col-lg-3"></div>
-
-  			<!-- FIRST CHART -->
-  			<div class="col-lg-2">
-  				<canvas id="canvas" height="130" width="130"></canvas>
-  				<label>Android</label>
-  				<br>
-  				<script>
-  				var doughnutData = [
-  				{
-  					value: 85,
-  					color:"#699315"
-  				},
-  				{
-  					value : 15,
-  					color : "#ecf0f1"
-  				}
-  				];
-  				var myDoughnut = new Chart(document.getElementById("canvas").getContext("2d")).Doughnut(doughnutData);
-  				</script>
-  				<br>
-  				<br>
-  			</div><!-- col-lg-2 -->
-
-
-  			<!-- SECOND CHART -->
-  			<div class="col-lg-2">
-  				<canvas id="canvas1" height="130" width="130"></canvas>
-  				<label>Java</label>
-  				<br>
-  				<script>
-  				var doughnutData = [
-  				{
-  					value: 90,
-  					color:"#699315"
-  				},
-  				{
-  					value : 10,
-  					color : "#ecf0f1"
-  				}
-  				];
-  				var myDoughnut = new Chart(document.getElementById("canvas1").getContext("2d")).Doughnut(doughnutData);
-  				</script>
-  				<br>
-  				<br>
-  			</div><!-- col-lg-2 -->
-
-
-  			<!-- THIRD CHART -->
-  			<div class="col-lg-2">
-  				<canvas id="canvas2" height="130" width="130"></canvas>
-  				<label>Web Development</label>
-  				<script>
-  				var doughnutData = [
-  				{
-  					value: 50,
-  					color:"#699315"
-  				},
-  				{
-  					value : 50,
-  					color : "#ecf0f1"
-  				}
-  				];
-  				var myDoughnut = new Chart(document.getElementById("canvas2").getContext("2d")).Doughnut(doughnutData);
-  				</script>
-  				<br>
-  				<br>
-  			</div><!-- col-lg-2 -->
 
   			<div class="col-lg-3"></div>
   		</div><!-- container -->
@@ -306,10 +232,6 @@
   								<br>
   							</div><!-- /col -->
 
-
-
-
-
   							<!-- PORTFOLIO IMAGE 2 -->
   							<div class="col-md-4">
   								<div class="grid mask">
@@ -403,27 +325,27 @@
         <div class="col-lg-4 col"> 
           <div class="polaroid-images">
             <br>
+            <a href="http://www.socrata.com/" title="Selfie @ Socrata"><img src="assets/img/experience/experience0.jpg" title="Socrata" alt="Selfie @ Socrata"></a>
+          </div> 
+        </div>
+        <div class="col-lg-8 col"  id="expEntry">
+          <h2><b><a href="http://socrata.com">Socrata</a></b></h2>
+          <h4>I joined as an intern at Socrata in Seattle, Washington in the summer of 2015. Over the summer, two other interns and I researched into data store solutions such as <a href="https://cloud.google.com/bigquery/">Google BigQuery</a>, <a href="https://aws.amazon.com/redshift/">Amazon RedShift</a>, and <a href="http://spark.apache.org/">Apache Spark</a>, to solve the issue of slow query times for large datasets. After benchmarking each of the respective services, we came to the consensus that Google BigQuery best suited our needs, and with that my team and I developed and integrated Google BigQuery into the existing tech stack as a new <a href="https://github.com/socrata-platform/soql-bigquery-adapter">data store secondary</a> in Scala.</h4><br><br>
+        </div>
+      </div> <!-- end of row -->
+
+      <div class="row">
+        <div class="col-lg-4 col"> 
+          <div class="polaroid-images">
+            <br>
             <a href="http://www.voicebox.com/" title="Mobile Dev Team"><img src="assets/img/experience/experience1.jpg" title="Mobile Dev Team" alt="Mobile Dev Team"></a>
           </div> 
         </div>
         <div class="col-lg-8 col"  id="expEntry">
           <h2><b><a href="http://www.voicebox.com/">VoiceBox Technologies</a></b></h2>
-          <h4>I joined as an intern at VoiceBox Technologies in Bellevue, Washington on the mobile development team. Over the course of 3 months, I built an Android application that was used to gather audio recordings deployed both internally and on crowdsourcing platforms. <br><br>To optimize the ability the gather audio recordings, I also helped design an effective file directory structure and integrated the Amazon S3 Android SDK into the application. So far, over 60,000 audio recordings have been successfully collected with the application. <br><br>Currently, this winter, I'm back working at VoiceBox focusing on web development and creating a website to showcase VoiceBox's technologies for<a href="http://www.cesweb.org/"> CES</a>.</h4>
+          <h4>I joined as an intern at VoiceBox Technologies in Bellevue, Washington on the mobile development team. Over the course of 3 months, I built an Android application that was used to gather audio recordings deployed both internally and on crowdsourcing platforms. <br><br>To optimize the ability the gather audio recordings, I also helped design an effective file directory structure and integrated the Amazon S3 Android SDK into the application. So far, over 60,000 audio recordings have been successfully collected with the application. I also developed a website to showcase VoiceBox's technologies at<a href="http://www.cesweb.org/"> CES</a>.</h4>
         </div>
       </div> <!-- end of row -->
-
-      <div class="row">
-        <div class="col-lg-4 col">
-          <div class="polaroid-images">
-            <br>
-            <a href="http://dubhacks.co/" title="Fount Team"><img src="assets/img/experience/experience3.jpg" title="The Whole Team" alt="The Whole Team"></a>
-          </div>
-        </div>
-        <div class="col-lg-8 col" align="left" id="expEntry">
-          <h2><b><a href="http://dubhacks.co/">DubHacks</a></b></h2>
-          <h4>I was a participant at DubHacks, one of the biggest hackathons in the Northwest, hosted at the University of Washington Seattle campus. After forming a team, my team and I sought out to build an crowdsourced Android application, Fount, for runners that locates and notifies the runner when they are close to a water fountain.<br><br>By developing an application that has this functionality, this eliminates the need to bring a water bottle while running. Unfortunately, despite all our efforts in coding for 24 hours, we did not finish Fount in time, although our team plans to continue to finish the application together.<br><br>The source code is available on GitHub <a href="https://github.com/gestone/WaterFountain">here</a>.</h4>
-        </div>
-      </div>
 
       <div class="row">
         <div class="col-xs-4 col">
@@ -439,41 +361,6 @@
     </div>
   </div>
       <div class="col-lg-3"></div>
-
-
-	<!-- <div id="testimonial">
-		<div class="container">
-			<div class="bs-example">
-				<div id="carousel-example-generic" class="carousel slide bs-docs-carousel-example">
-					<ol class="carousel-indicators">
-						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					</ol>
-					<div class="carousel-inner">
-						<div class="item active">
-							<h1>Work with Alex was a pleasure. He understood exactly what I wanted and created an awesome site for my company.</h1>
-							<br>
-							<h2>Brad Cooper</h2>
-						</div>
-						<div class="item">
-							<h1>I'm really happy with the results. Get 100% satisfaction is difficult but Alex got it without problems.</h1>
-							<br>
-							<h2>Joan Mathews</h2>
-						</div>
-						<div class="item">
-							<h1>Search no more. Alex is the guy that you need for your next project. Don't waste your time. He's the chosen one.</h1>
-							<br>
-							<h2>Trevor Bishop</h2>
-						</div>
-					</div>
-					<br>
-					<br>
-					<br>
-				</div>
-			</div>
-		</div> -->
-
 		<section id="contact" name="contact"></section>
 		<div id="footerwrap">
 			<div class="container">
